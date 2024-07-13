@@ -12,6 +12,7 @@
   "dependencies": {
     "@runno/runtime": "^0.7.0",
     "blurhash": "^2.0.5",
+    "mathjs": "^13.0.2",
     "react": "^18.2.0",
     "react-blurhash": "^0.3.0",
     "react-dom": "^18.2.0",

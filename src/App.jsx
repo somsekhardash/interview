@@ -10,6 +10,7 @@ function App() {
         <li><Link to="search">Search Bar</Link></li>
         <li><Link to="image">Image</Link></li>
         <li><Link to="signup">SignUpWithValidation</Link></li>
+        <li><Link to="calculator">Calculator</Link></li>
       </ul>
     </div>
   );

@@ -11,8 +11,9 @@ import StopWatch from './StopWatch/StopWatch';
 import TikTakTao from './TikTakTao/TikTakTao';
 import SearchBar from './SearchBar/SearchBar';
 import ImageLazyLoading from "./ImageLazyLoading/ImageLazyLoading"
-import SignupForm from './FormValidation/FormValidation.jsx';
-import SignupFormAnother from './FormValidation/FormValidation2.jsx';
+import SignupForm from './FormValidation/FormValidation';
+import SignupFormAnother from './FormValidation/FormValidation2';
+import Calculator from './Calculator';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,11 @@ const router = createBrowserRouter([
   {
     path: "/signup-2",
     element: <SignupFormAnother />,
+    errorElement: <ErrorBoundary />,
+  },
+  {
+    path: "/calculator",
+    element: <Calculator />,
     errorElement: <ErrorBoundary />,
   },
 ]);
